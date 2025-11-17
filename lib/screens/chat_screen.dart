@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import '../constants/theme.dart';
-import '../models/chat_models.dart';
 import '../services/chatbot_service.dart';
 import '../widgets/chat_widgets.dart';
 
@@ -77,7 +75,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Row(
+        title: Row(
           children: [
             Text(
               '💰 Money Buddy',

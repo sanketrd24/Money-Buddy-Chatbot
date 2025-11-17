@@ -11,9 +11,9 @@ class FinanceData {
       simpleExplanation:
           'SIP is like putting the same amount of money into a savings jar every month, instead of all at once.',
       analogy:
-          'Imagine saving for a video game. Instead of saving ₹1000 all at once, you save ₹100 every month for 10 months. That\'s SIP!',
+          'Imagine saving for a video game. Instead of saving 1000 rupees all at once, you save 100 rupees every month for 10 months. Thats SIP!',
       example:
-          'You invest ₹500 every month in a mutual fund. After 1 year, you\'ve invested ₹6000 and possibly earned extra returns.',
+          'You invest 500 rupees every month in a mutual fund. After 1 year, youve invested 6000 rupees and possibly earned extra returns.',
       relatedConcepts: ['mutual-fund', 'compound-interest', 'investment-risk'],
       emoji: '📊',
     ),
@@ -25,7 +25,7 @@ class FinanceData {
       analogy:
           'Imagine 100 kids combining their pocket money to buy 10 different toys. Everyone gets a share of each toy!',
       example:
-          'You invest ₹1000 in a mutual fund. Your money mixes with others\' money to buy stocks from different companies.',
+          'You invest 1000 rupees in a mutual fund. Your money mixes with others money to buy stocks from different companies.',
       relatedConcepts: ['sip', 'diversification', 'portfolio'],
       emoji: '💰',
     ),
@@ -37,7 +37,7 @@ class FinanceData {
       analogy:
           'You plant a seed. It grows into a tree. The tree makes seeds. Those seeds grow into more trees. That\'s compound interest!',
       example:
-          'You invest ₹1000 at 10% interest. Year 1: ₹1100. Year 2: ₹1210 (interest on ₹1100, not just ₹1000).',
+          'You invest 1000 rupees at 10% interest. Year 1: 1100 rupees. Year 2: 1210 rupees (interest on 1100, not just 1000).',
       relatedConcepts: ['investment-return', 'time-value', 'sip'],
       emoji: '🚀',
     ),
@@ -75,7 +75,7 @@ class FinanceData {
       example:
           'Savings account (safe, 4% return). Stocks (risky, could be 15% or -10%). Choose based on how brave you are!',
       relatedConcepts: ['investment-risk', 'portfolio-balance', 'diversification'],
-      emoji: '⚖️',
+      emoji: 'balance',
     ),
   ];
 
@@ -152,7 +152,7 @@ class FinanceData {
       id: 'm1',
       myth: 'You need lots of money to start investing.',
       fact:
-          'You can start investing with as little as ₹100-500 per month through SIP!',
+          'You can start investing with as little as 100-500 rupees per month through SIP!',
       explanation:
           'Many mutual funds and brokers allow small investments. SIP makes it easy to start small and grow gradually.',
       topic: 'Investment Basics',
