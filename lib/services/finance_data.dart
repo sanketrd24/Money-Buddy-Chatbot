@@ -61,7 +61,7 @@ class FinanceData {
       analogy:
           'Imagine your friend starts a lemonade business. You buy a small part of it (a share). Now you own a tiny piece and get profits!',
       example:
-          'You buy 1 share of Apple for $150. Apple grows, and your share becomes worth $200. You just made $50!',
+          'You buy 1 share of Apple for 150 dollars. Apple grows, and your share becomes worth 200 dollars. You just made 50 dollars!',
       relatedConcepts: ['stock', 'portfolio', 'trading'],
       emoji: 'stock',
     ),
