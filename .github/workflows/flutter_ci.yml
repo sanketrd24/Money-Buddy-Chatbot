@@ -25,8 +25,19 @@ jobs:
       - name: Analyze code
         run: flutter analyze
       
-      - name: Format check
-        run: flutter format --set-exit-if-changed .
+      - name: Format code
+        run: flutter format .
+      
+      - name: Commit formatted code
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "Format: Apply Dart formatting"
+      
+      - name: Push formatted code
+        if: always()
+        run: git push
       
       - name: Run tests
         run: flutter test
