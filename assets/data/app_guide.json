@@ -1,0 +1,46 @@
+{
+  "guide": {
+    "title": "Money Buddy Guide",
+    "sections": [
+      {
+        "id": "1",
+        "title": "Getting Started",
+        "content": "Welcome to Money Buddy! This guide will help you navigate the chatbot and learn about financial concepts."
+      },
+      {
+        "id": "2",
+        "title": "Learning Concepts",
+        "content": "Choose 'Learn a concept' to understand financial terms. Money Buddy will explain in simple language with real-world examples."
+      },
+      {
+        "id": "3",
+        "title": "Taking Quizzes",
+        "content": "Test your knowledge with our 5 financial quizzes. Each quiz has 4 options. Pick the correct answer!"
+      },
+      {
+        "id": "4",
+        "title": "Myth vs Fact",
+        "content": "Learn what's true and what's false about finance. We debunk 5 common misconceptions."
+      },
+      {
+        "id": "5",
+        "title": "Story Mode",
+        "content": "Understand through real-life stories. See how money grows over time with smart investing."
+      }
+    ]
+  },
+  "tips": [
+    "Start with basic concepts before taking quizzes",
+    "Read the explanations carefully - they help you understand why answers are correct",
+    "Use the myth vs fact section to clear up misconceptions",
+    "Stories show real examples of how money grows",
+    "Remember: this is educational content, not financial advice"
+  ],
+  "colors": {
+    "primary": "#6366F1",
+    "secondary": "#10B981",
+    "accent": "#F59E0B",
+    "danger": "#EF4444",
+    "success": "#10B981"
+  }
+}

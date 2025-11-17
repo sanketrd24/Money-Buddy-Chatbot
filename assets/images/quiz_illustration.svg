@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F3F4F6"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#1F2937">Quiz Challenge</text>
+  
+  <!-- Quiz box -->
+  <rect x="50" y="70" width="300" height="200" fill="white" stroke="#6366F1" stroke-width="3" rx="10"/>
+  
+  <!-- Question -->
+  <text x="200" y="110" font-size="16" font-weight="bold" text-anchor="middle" fill="#1F2937">Question 1 of 5</text>
+  <text x="200" y="135" font-size="14" text-anchor="middle" fill="#374151">What is compound interest?</text>
+  
+  <!-- Option A -->
+  <rect x="70" y="155" width="260" height="25" fill="#E0E7FF" stroke="#6366F1" stroke-width="2" rx="5"/>
+  <text x="85" y="175" font-size="13" fill="#1F2937">A) Interest paid twice a year</text>
+  
+  <!-- Option B -->
+  <rect x="70" y="190" width="260" height="25" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2" rx="5"/>
+  <text x="85" y="210" font-size="13" fill="#1F2937">B) Interest earned on interest</text>
+  
+  <!-- Option C -->
+  <rect x="70" y="225" width="260" height="25" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="2" rx="5"/>
+  <text x="85" y="245" font-size="13" fill="#6B7280">C) Interest that is complicated</text>
+  
+  <!-- Bottom text -->
+  <text x="200" y="290" font-size="12" text-anchor="middle" fill="#6B7280">5 questions to test your knowledge</text>
+</svg>

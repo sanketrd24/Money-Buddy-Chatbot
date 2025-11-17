@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#F3F4F6"/>
+  
+  <!-- Money bag icon -->
+  <circle cx="100" cy="90" r="50" fill="#F59E0B"/>
+  <path d="M 70 70 Q 70 50, 100 50 Q 130 50, 130 70" fill="none" stroke="#F59E0B" stroke-width="4"/>
+  <text x="100" y="110" font-size="50" font-weight="bold" text-anchor="middle" fill="white">$</text>
+  
+  <!-- Text -->
+  <text x="100" y="160" font-size="20" font-weight="bold" text-anchor="middle" fill="#374151">Money Buddy</text>
+</svg>

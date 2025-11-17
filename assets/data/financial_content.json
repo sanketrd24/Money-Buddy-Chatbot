@@ -1,0 +1,110 @@
+{
+  "app": {
+    "name": "Money Buddy",
+    "description": "A friendly financial learning chatbot for beginners",
+    "version": "1.0.0"
+  },
+  "concepts": [
+    {
+      "id": "1",
+      "name": "SIP (Systematic Investment Plan)",
+      "description": "A method of investing a fixed amount regularly",
+      "category": "Investment Basics",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "2",
+      "name": "Mutual Fund",
+      "description": "Pooled investment vehicle managed by professionals",
+      "category": "Investment Vehicles",
+      "difficulty": "Beginner"
+    },
+    {
+      "id": "3",
+      "name": "Compound Interest",
+      "description": "Interest earned on interest - the magic of long-term investing",
+      "category": "Growth Concepts",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "4",
+      "name": "Diversification",
+      "description": "Spreading investments across different assets",
+      "category": "Risk Management",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "5",
+      "name": "Stock Market",
+      "description": "A marketplace for buying and selling company shares",
+      "category": "Markets",
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": "6",
+      "name": "Risk vs Return",
+      "description": "The trade-off between safety and growth potential",
+      "category": "Investment Strategy",
+      "difficulty": "Beginner"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "question": "What does SIP stand for?",
+      "difficulty": "Easy",
+      "category": "SIP"
+    },
+    {
+      "id": "q2",
+      "question": "Which is an advantage of mutual funds?",
+      "difficulty": "Easy",
+      "category": "Mutual Fund"
+    },
+    {
+      "id": "q3",
+      "question": "What is compound interest?",
+      "difficulty": "Medium",
+      "category": "Compound Interest"
+    },
+    {
+      "id": "q4",
+      "question": "Why is diversification important?",
+      "difficulty": "Medium",
+      "category": "Diversification"
+    },
+    {
+      "id": "q5",
+      "question": "Which investment has higher returns but higher risk?",
+      "difficulty": "Medium",
+      "category": "Risk vs Return"
+    }
+  ],
+  "myths": [
+    {
+      "id": "m1",
+      "myth": "You need lots of money to start investing",
+      "category": "Investment Basics"
+    },
+    {
+      "id": "m2",
+      "myth": "Stock market is just for rich people",
+      "category": "Stock Market"
+    },
+    {
+      "id": "m3",
+      "myth": "Investing is the same as gambling",
+      "category": "Investment Basics"
+    },
+    {
+      "id": "m4",
+      "myth": "Higher returns always mean higher risk",
+      "category": "Risk Management"
+    },
+    {
+      "id": "m5",
+      "myth": "You should check your investments every day",
+      "category": "Investment Strategy"
+    }
+  ]
+}
