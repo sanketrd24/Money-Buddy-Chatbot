@@ -17,6 +17,7 @@ class ChatbotService {
       messages: _messages,
       currentMode: 'chat',
     );
+    getWelcomeMessage();
   }
 
   List<Message> get messages => _messages;
@@ -77,25 +78,25 @@ class ChatbotService {
 
     concept ??= FinanceData.concepts[0];
 
-    final responseText = '''${concept.emoji} **${concept.concept}**
+    final responseText = '''${concept.concept}
 
 ${concept.simpleExplanation}
 
-📖 **Example:** ${concept.example}
+Example: ${concept.example}
 
-💡 **Think of it like:** ${concept.analogy}
+Think of it like: ${concept.analogy}
 
-This is for learning only, not financial advice. 📚
+This is for learning only, not financial advice.
 
 What would you like next?
-⭐ Quiz | 🧩 Myth vs Fact | 📘 Deep Dive | 📝 Summary''';
+Quiz | Myth vs Fact | Deep Dive | Summary''';
 
     return Message(
       id: 'bot_${DateTime.now().millisecondsSinceEpoch}',
       text: responseText,
       isBot: true,
       timestamp: DateTime.now(),
-      options: ['⭐ Quiz', '🧩 Myth vs Fact', '📘 Deep Dive', '📝 Summary'],
+      options: ['Quiz', 'Myth vs Fact', 'Deep Dive', 'Summary'],
       type: MessageType.options,
     );
   }
@@ -127,13 +128,13 @@ Just type A, B, C, or D!''';
   Message _getMythFactMessage() {
     final mythFact = FinanceData.mythFacts[0];
 
-    final responseText = '''🧩 **Myth vs Fact**
+    final responseText = '''Myth vs Fact
 
-❌ **Myth:** "${mythFact.myth}"
+Myth: "${mythFact.myth}"
 
-✅ **Fact:** "${mythFact.fact}"
+Fact: "${mythFact.fact}"
 
-📝 **Why?** ${mythFact.explanation}
+Why? ${mythFact.explanation}
 
 ${FinanceData.disclaimer}''';
 
@@ -147,19 +148,19 @@ ${FinanceData.disclaimer}''';
   }
 
   Message _getStoryMessage() {
-    final responseText = '''📖 **Story Time!**
+    final responseText = '''Story Time!
 
-Imagine little Raj starts with ₹100 pocket money. 💵
+Imagine little Raj starts with 100 rupees pocket money.
 
-He decides to invest ₹50 every month instead of spending it on candy. 🍬➡️📊
+He decides to invest 50 rupees every month instead of spending it on candy.
 
-After 1 year, thanks to compound interest, his ₹600 becomes ₹650! 📈
+After 1 year, thanks to compound interest, his 600 rupees becomes 650 rupees!
 
-After 10 years? His consistent ₹1200 investment becomes ₹15,000! 🚀
+After 10 years? His consistent 1200 rupees investment becomes 15,000 rupees!
 
-**The magic?** Time, consistency, and compound interest! ⏰✨
+The magic? Time, consistency, and compound interest!
 
-This is for learning only, not financial advice. 📚''';
+This is for learning only, not financial advice.''';
 
     return Message(
       id: 'bot_${DateTime.now().millisecondsSinceEpoch}',
@@ -182,10 +183,10 @@ This is for learning only, not financial advice. 📚''';
       isBot: true,
       timestamp: DateTime.now(),
       options: [
-        '📚 Learn a concept',
-        '⭐ Take a quiz',
-        '🧩 Myth vs Fact',
-        '📖 Story mode'
+        'Learn a concept',
+        'Take a quiz',
+        'Myth vs Fact',
+        'Story mode'
       ],
       type: MessageType.options,
     );
