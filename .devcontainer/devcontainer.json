@@ -1,26 +1,14 @@
 {
-  "name": "Money Buddy Chatbot - Flutter Dev",
-  "image": "mcr.microsoft.com/devcontainers/flutter:1-ubuntu-22.04",
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {}
-  },
+  "name": "Money Buddy Chatbot",
+  "image": "ubuntu:22.04",
   "customizations": {
     "vscode": {
       "extensions": [
         "Dart-Code.flutter",
         "Dart-Code.dart-code"
-      ],
-      "settings": {
-        "editor.formatOnSave": true
-      }
+      ]
     }
   },
-  "postCreateCommand": "bash .devcontainer/post-create.sh || true",
-  "forwardPorts": [8080],
-  "portsAttributes": {
-    "8080": {
-      "label": "Flutter Web App",
-      "onAutoForward": "notify"
-    }
-  }
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "forwardPorts": [8080]
 }
