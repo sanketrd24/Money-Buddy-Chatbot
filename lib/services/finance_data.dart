@@ -35,7 +35,7 @@ class FinanceData {
       simpleExplanation:
           'Compound interest is when your money earns interest, and then THAT interest earns more interest. Magic money growth!',
       analogy:
-          'You plant a seed. It grows into a tree. The tree makes seeds. Those seeds grow into more trees. That\'s compound interest!',
+          'You plant a seed. It grows into a tree. The tree makes seeds. Those seeds grow into more trees. Thats compound interest!',
       example:
           'You invest 1000 rupees at 10% interest. Year 1: 1100 rupees. Year 2: 1210 rupees (interest on 1100, not just 1000).',
       relatedConcepts: ['investment-return', 'time-value', 'sip'],
@@ -45,9 +45,9 @@ class FinanceData {
       id: '4',
       concept: 'Diversification',
       simpleExplanation:
-          'Don\'t put all your eggs in one basket! Spread your money across different investments to reduce risk.',
+          'Do not put all your eggs in one basket! Spread your money across different investments to reduce risk.',
       analogy:
-          'If you only like one type of snack and the shop runs out, you have nothing. But if you like chips, candy, and fruit, you\'re always okay!',
+          'If you only like one type of snack and the shop runs out, you have nothing. But if you like chips, candy, and fruit, youre always okay!',
       example:
           'Instead of buying only one stock, you invest in stocks, bonds, and gold. If stocks fall, other investments might stay stable.',
       relatedConcepts: ['risk-management', 'mutual-fund', 'portfolio'],
@@ -91,7 +91,7 @@ class FinanceData {
       ],
       correctAnswerIndex: 0,
       explanation:
-          'SIP stands for Systematic Investment Plan. It\'s when you invest a fixed amount regularly (like monthly).',
+          'SIP stands for Systematic Investment Plan. Its when you invest a fixed amount regularly (like monthly).',
       topic: 'SIP',
     ),
     QuizQuestion(
@@ -114,7 +114,7 @@ class FinanceData {
       options: [
         'Interest paid twice a year',
         'Interest earned on interest',
-        'Interest that\'s complicated',
+        'Interest that is complicated',
         'A bank service'
       ],
       correctAnswerIndex: 1,
@@ -129,7 +129,7 @@ class FinanceData {
         'To make more money',
         'To spread risk across different investments',
         'To buy more things',
-        'It\'s not important'
+        'It is not important'
       ],
       correctAnswerIndex: 1,
       explanation:
@@ -152,7 +152,7 @@ class FinanceData {
       id: 'm1',
       myth: 'You need lots of money to start investing.',
       fact:
-          'You can start investing with as little as 100-500 rupees per month through SIP!',
+          'You can start investing with as little as 100 to 500 rupees per month through SIP!',
       explanation:
           'Many mutual funds and brokers allow small investments. SIP makes it easy to start small and grow gradually.',
       topic: 'Investment Basics',
@@ -162,7 +162,7 @@ class FinanceData {
       myth: 'Stock market is just for rich people.',
       fact: 'Anyone can invest in the stock market with a small amount of money.',
       explanation:
-          'With digital platforms, you can open an account in minutes and invest from any amount you\'re comfortable with.',
+          'With digital platforms, you can open an account in minutes and invest from any amount youre comfortable with.',
       topic: 'Stock Market',
     ),
     MythFact(
