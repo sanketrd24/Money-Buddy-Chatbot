@@ -2,7 +2,7 @@ import '../models/chat_models.dart';
 
 class FinanceData {
   static const String disclaimer =
-      'This is for learning only, not financial advice. 📚';
+      'This is for learning only, not financial advice.';
 
   static final List<ConceptExplanation> concepts = [
     ConceptExplanation(
@@ -15,7 +15,7 @@ class FinanceData {
       example:
           'You invest 500 rupees every month in a mutual fund. After 1 year, youve invested 6000 rupees and possibly earned extra returns.',
       relatedConcepts: ['mutual-fund', 'compound-interest', 'investment-risk'],
-      emoji: '📊',
+      emoji: 'chart',
     ),
     ConceptExplanation(
       id: '2',
@@ -27,7 +27,7 @@ class FinanceData {
       example:
           'You invest 1000 rupees in a mutual fund. Your money mixes with others money to buy stocks from different companies.',
       relatedConcepts: ['sip', 'diversification', 'portfolio'],
-      emoji: '💰',
+      emoji: 'money',
     ),
     ConceptExplanation(
       id: '3',
@@ -39,7 +39,7 @@ class FinanceData {
       example:
           'You invest 1000 rupees at 10% interest. Year 1: 1100 rupees. Year 2: 1210 rupees (interest on 1100, not just 1000).',
       relatedConcepts: ['investment-return', 'time-value', 'sip'],
-      emoji: '🚀',
+      emoji: 'rocket',
     ),
     ConceptExplanation(
       id: '4',
@@ -51,7 +51,7 @@ class FinanceData {
       example:
           'Instead of buying only one stock, you invest in stocks, bonds, and gold. If stocks fall, other investments might stay stable.',
       relatedConcepts: ['risk-management', 'mutual-fund', 'portfolio'],
-      emoji: '🎯',
+      emoji: 'target',
     ),
     ConceptExplanation(
       id: '5',
@@ -63,7 +63,7 @@ class FinanceData {
       example:
           'You buy 1 share of Apple for $150. Apple grows, and your share becomes worth $200. You just made $50!',
       relatedConcepts: ['stock', 'portfolio', 'trading'],
-      emoji: '📈',
+      emoji: 'stock',
     ),
     ConceptExplanation(
       id: '6',
@@ -195,16 +195,16 @@ class FinanceData {
   ];
 
   static String getWelcomeMessage() {
-    return '''👋 Hey! I'm Money Buddy! 🤑
+    return '''Hey! I'm Money Buddy!
 
 I'm here to make finance super fun and easy to understand. Whether you want to learn about SIP, mutual funds, or just have fun with trivia, I've got you!
 
 What would you like to do?
-📚 Learn a concept
-⭐ Take a quiz
-🧩 See myth vs fact
-📖 Story mode
-📝 Get a quick summary''';
+- Learn a concept
+- Take a quiz
+- See myth vs fact
+- Story mode
+- Get a quick summary''';
   }
 
   static String getResponsePrompt(String concept) {
