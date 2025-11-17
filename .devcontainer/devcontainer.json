@@ -8,31 +8,19 @@
     "vscode": {
       "extensions": [
         "Dart-Code.flutter",
-        "Dart-Code.dart-code",
-        "esbenp.prettier-vscode",
-        "ms-vscode.makefile-tools"
+        "Dart-Code.dart-code"
       ],
       "settings": {
-        "dart.flutterSdkPath": "/usr/local/flutter",
         "editor.formatOnSave": true
       }
     }
   },
-  "postCreateCommand": "bash .devcontainer/post-create.sh",
-  "remoteUser": "vscode",
-  "forwardPorts": [8080, 3000, 5037],
+  "postCreateCommand": "bash .devcontainer/post-create.sh || true",
+  "forwardPorts": [8080],
   "portsAttributes": {
     "8080": {
       "label": "Flutter Web App",
       "onAutoForward": "notify"
-    },
-    "3000": {
-      "label": "Dev Server",
-      "onAutoForward": "notify"
-    },
-    "5037": {
-      "label": "ADB Daemon",
-      "onAutoForward": "silent"
     }
   }
 }
