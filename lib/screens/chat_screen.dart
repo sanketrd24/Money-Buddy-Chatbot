@@ -75,16 +75,12 @@ class _ChatScreenState extends State<ChatScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Row(
-          children: [
-            Text(
-              '💰 Money Buddy',
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ],
+        title: Text(
+          'Money Buddy',
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          ),
         ),
         centerTitle: false,
         actions: [
@@ -102,7 +98,7 @@ class _ChatScreenState extends State<ChatScreen> {
           Expanded(
             child: _chatbotService.messages.isEmpty
                 ? const EmptyState(
-                    emoji: '💰',
+                    emoji: 'money',
                     title: 'Welcome to Money Buddy!',
                     subtitle: 'Ask me anything about investing and finance.',
                   )

@@ -118,7 +118,7 @@ class _InputFieldState extends State<InputField> {
             child: TextField(
               controller: widget.controller,
               decoration: InputDecoration(
-                hintText: 'Ask Money Buddy anything... 💰',
+                hintText: 'Ask Money Buddy anything...',
                 hintStyle: const TextStyle(
                   color: AppColors.textLight,
                   fontSize: 14,
